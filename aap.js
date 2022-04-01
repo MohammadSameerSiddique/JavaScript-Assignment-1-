@@ -80,9 +80,182 @@
 // document.write ("A smarter! way to learn JavaScript");
 
 // 9. Store following string in a variable and show in 
-// alert and browser through JS ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬
+// alert and browser through JS ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬ 
   
 // alert ("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
+
+
+           // Chapter 3
+ 
+// 1. Declare a variable called age & assign to it your age.
+//    Show your age in an alert box.   
+
+// var age 
+// alert ("I am 18 years old");
+
+// 2. Declare & initialize a variable to keep track of how many times a 
+//    visitor has visited a web page. Show his/her number of visits on your web page.
+//    For example: “You have visited this site N times”:
+
+// var a = 1;
+// a++;
+// alert("You have visited this site" +" "+ a +" "+ "times");
+
+// 3. Declare a variable called birthYear & assign to it your birth year. 
+//     Show the following message in your browser.
+
+// var birthYear = ("My birth year");
+// document.write ("My birth year is 1990 </br> Data type of my declared variable in number");
+
+
+// 4. A visitor visits an online clothing store www.xyzClothing.com .
+//  Write a script to store in variables the following information: 
+//  a. Visitor’s name 
+//  b. Product title 
+//  c. Quantity i.e. how many products a visitor wants to 
+//  order Show the following message in your browser: 
+//  “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”;
+
+// var visit ="Sameer";
+// var quan ="5";
+// var pro ="T-shirt";
+//  console.log (visit  +" "+ "ordered" +" "+  quan +" "+ pro +" "+ "on XYZ Clothing store");
+
+
+           // Chapter 4
+      
+// 1. Declare 3 variables in one statement.
+
+// var class,subject,year;
+
+// 2. Declare 5 legal & 5 illegal variable names.
+
+// 5 legal
+// var name;
+// var class10;
+// var subject$;
+// var year__;
+// var rollNumber;
+
+// 5 illegal
+// var if;
+// var @name;
+// var &num;
+// var #year;
+// var --log;
+
+// 3. Display this in your browser 
+// a)  A heading stating “Rules for naming JS variables” 
+// b)  Variable names can only contain ______, ______, ______ and ______. 
+// For example $my_1stVariable c) Variables must begin with a ______, ______ or _____. 
+// For example $name, _name or name d) Variable names are case _________. 
+// e) Variable names should not be JS ________.
+
+// document.write("<h1>Rules for naming JS variables</h1> ");
+// document.write("Variable names can only contain .numbers.$ and For example $my_1stVariable </br> Variables must begin with a .letter .$ For example $name, _name or name </br> Variable names are case sensitive </br> Variable names should not be JS World")
+
+               // Chapter 5
+
+           
+// 1. Write a program that take two numbers & add them in a new variable. 
+//    Show the result in your browser. 
+
+// var num1 =+prompt ("Enter First Number");
+// var num2 =+prompt ("Enter Second Number");
+// var num3 = num1+num2;
+// console.log("Sum of"+" "+num1+" "+"and"+" "+num2+" "+"is"+" "+num3);
+
+// 2. Repeat task1 for subtraction, multiplication, division & modulus.
+
+
+// var num1 =+prompt ("Enter First Number");
+// var num2 =+prompt ("Enter Second Number");
+// var num3 = num1-num2;
+// console.log("Subtract of"+" "+num1+" "+"and"+" "+num2+" "+"is"+" "+num3);
+
+
+// var num1 =+prompt ("Enter First Number");
+// var num2 =+prompt ("Enter Second Number");
+// var num3 = num1/num2;
+// console.log("Division of"+" "+num1+" "+"and"+" "+num2+" "+"is"+" "+num3);
+
+
+// var num1 =+prompt ("Enter First Number");
+// var num2 =+prompt ("Enter Second Number");
+// var num3 = num1*num2;
+// console.log("Multiplication of"+" "+num1+" "+"and"+" "+num2+" "+"is"+" "+num3);
+
+
+// 3. Do the following using JS Mathematic Expressions 
+// a. Declare a variable. 
+// b. Show the value of variable in your browser like 
+// “Value after variable declaration is: ??”. 
+// c. Initialize the variable with some number. 
+// d. Show the value of variable in your browser like 
+// “Initial value: 5”. 
+// e. Increment the variable. 
+// f. Show the value of variable in your browser like 
+// “Value after increment is: 6”. 
+// g. Add 7 to the variable. h. Show the value of variable in your browser like 
+// “Value after addition is: 13”. 
+// i. Decrement the variable. 
+// j. Show the value of variable in your browser like 
+// “Value after decrement is: 12”. 
+// k. Show the remainder after dividing the variable’s value by 3.  
+// l. Output : “The remainder is : 0”.
+
+// var num;
+// document.write("Value after variable decleration is" +" "+ num  ); 
+// num = 5;
+// document.write("</br> Initial after :" +" "+ num );
+// document.write("</br> Value after increment is :" +" "+ ++num );
+// num=num+7;
+// document.write("</br> Value after addition is :" +" "+ num );
+// num=num-1
+// document.write("</br> Value after decrement is :" +" "+ num );
+// num=num-num;
+// document.write("</br> The remaindar is :" +" "+ num );
+
+
+// 4. Cost of one movie ticket is 600 PKR. 
+//    Write a script to store ticket price in a variable 
+//    & calculate the cost of buying 5 tickets to a movie.
+
+// var ticket=600;
+// var calcu=600*5;
+// document.write("Total cos to buy 5 tickets to a movie is" +" "+ calcu +"PKR" );
+
+
+// 5. Write a script to display multiplication table 
+//    of any number in your browser.
+
+// var table=+prompt("Enter Your Table Number");
+// for(a=1;a<=10;a++){
+//     document.write(table +" "+ "x" +" "+a+" "+"="+" " + table*a +" </br>"  );
+// } 
+
+// 8. Store total marks & marks obtained by a student in 2 variables. 
+//    Compute the percentage & show the result in your browser.
+
+// document.write("<h1>Marks Sheet</h1>")
+// var totalMark=980;
+// var obtMark=804;
+// var sum=obtMark/totalMark*100;
+// document.write("Total marks : 980 </br> Obtained mark : 804 </br> Percentage :" +" "+ sum +"%" );
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. 
+//    Write a script to convert the total currency to Pakistani 
+//    Rupees.
+//    (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee 
+//    and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+// document.write("<h1>Currency in PKR</h1>");
+// var US = 10*104.80;
+// var saudi = 25*28;
+// var sum = US+saudi;
+// document.write("Total Currency in PKR :" +sum);
+
+
            // Chapter6-8
 /*
 1. Write a program to take a number in a variable,
@@ -151,6 +324,7 @@ console.log ("5 * 8 = 40");
 console.log ("5 * 9 = 45");
 console.log ("5 * 10 = 50");
 */
+
            
            //  Chapter 9-10
 
@@ -195,21 +369,6 @@ else{
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 11. Write a program to create a calculator for +,-,*, / & % using if statements.
      Take the following input: a.
@@ -240,9 +399,6 @@ else{
 }
 /*
 
-
-            
-
             //Chapter 12-13
 
 // 1. Write a program that takes a character (number or string) in a variable & checks whether the given input is a number,
@@ -252,8 +408,6 @@ else{
 /*
 2. Write a JavaScript program that accept two integers and display the larger.
    Also show if the two integers are equal.
-
-
 
 var num1 =+prompt ("Enter Your First Number ")
 var num2 =+prompt ("Enter Your Second Number ")
@@ -356,6 +510,5 @@ else {
 //   console.log ("Good evening");
 // }   
 
-
 // 7. Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm.
-//    Implement the following case using if, else & else if statements
+//    Implement the following case using if, else & else if statements.
